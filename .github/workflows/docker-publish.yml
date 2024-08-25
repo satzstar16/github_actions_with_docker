@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: satzstar16/github_actions_with_docker@v1
+        uses: satzstar16/github_actions_with_docker@main
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
